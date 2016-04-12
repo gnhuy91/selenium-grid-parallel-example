@@ -2,7 +2,7 @@
 Example parallel testing with Selenium Grid and Pytest.
 
 ## Quick start
-1. Install required packages
+1. Install required packages, using `virtualenv` is recommended
   ```
   pip install -r requirements.txt
   ```
