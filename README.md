@@ -13,6 +13,7 @@ Example parallel testing with Selenium Grid and Pytest.
   docker run -d -P -p 5998:5900 --link selenium-hub:hub selenium/node-firefox-debug:2.53.0
   docker run -d -P -p 5999:5900 --link selenium-hub:hub selenium/node-firefox-debug:2.53.0
   ```
+  See [here](https://github.com/SeleniumHQ/docker-selenium) for more info about Selenium docker images.
 
 3. Execute pytest
   ```
