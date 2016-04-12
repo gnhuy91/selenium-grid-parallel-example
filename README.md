@@ -20,4 +20,4 @@ Example parallel testing with Selenium Grid and Pytest.
       --capability browserName firefox --variables capabilities.json test_grid.py
   ```
 
-Open up VNCViewer to mapped ports (`localhost:5998` and `localhost:5999`, password: `secret`) and you should see both nodes are running different test method at once.
+Open up [VNCViewer](https://www.realvnc.com/download/viewer/) to mapped ports (`localhost:5998` and `localhost:5999`, password: `secret`) and you should see both nodes are running different test method at once.
