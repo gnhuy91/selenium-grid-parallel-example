@@ -20,6 +20,7 @@ Example parallel testing with Selenium Grid and Pytest.
   py.test -n 2 --html=report.html --driver Remote --host localhost --port 4444 \
       --capability browserName firefox --variables capabilities.json test_grid.py
   ```
+  For more detail, see [examples on Gridlastic](https://www.gridlastic.com/python-code-example.html#pytest-plugin-pytest-selenium).
 
 Open up [VNCViewer](https://www.realvnc.com/download/viewer/) to mapped ports (`localhost:5998` and `localhost:5999`, password: `secret`) and you should see both nodes are running different test method at once.
 
